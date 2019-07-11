@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
+        //My first change 
         [Key]
         public int CartItemId { get; set; }
 
@@ -17,5 +18,7 @@ namespace PartsUnlimited.Models
         public DateTime DateCreated { get; set; }
 
         public virtual Product Product { get; set; }
+
+
     }
 }
